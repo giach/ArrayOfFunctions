@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include "functie.h"
+#include "function.h"
 
 
 //Vectorul de functii
