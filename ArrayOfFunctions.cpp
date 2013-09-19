@@ -2,7 +2,7 @@
 #include<iostream>
 using namespace std;
 
-//Prototipurile functiilor exemple
+//Prototipurile functiilor date exemplu
 int addTen(int i);
 int subtractTen(int i);
 int multiplyByTen(int i);
