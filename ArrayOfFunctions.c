@@ -9,7 +9,7 @@ int arraySize = sizeof(func) / sizeof(func[0]);
 
 void applyFunctionsOnAValue(int value, int number) {
 
-  int i;
+	int i;
   
 	if(number < arraySize) {
 		printf("Rezultatele primelor %d functii.\n", number);
@@ -18,9 +18,9 @@ void applyFunctionsOnAValue(int value, int number) {
 		printf("Rezultatele tuturor functiilor.\n");
 	}
 	
-  for(i = 0; i < number; i++) {
-    printf("%d\n", func[i](value));
-        }
+	for(i = 0; i < number; i++) {
+  		printf("%d\n", func[i](value));
+    }
         
 }
 
