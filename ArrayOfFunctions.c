@@ -14,8 +14,12 @@ void applyFunctionsOnAValue(int value, int number) {
 	if(number < arraySize) {
 		printf("Rezultatele primelor %d functii.\n", number);
 	}
-	else {
+	else if (number == arraySize) {
 		printf("Rezultatele tuturor functiilor.\n");
+	}
+	else {
+		printf("Numarul dat este mai mare decat numarul functiilor");
+		number = arraySize;
 	}
 	
 	for(i = 0; i < number; i++) {
