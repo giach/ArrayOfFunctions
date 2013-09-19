@@ -1,4 +1,4 @@
-#include "functie.h"
+#include "function.h"
 
 int addTen(int i) {
         return i + 10;
