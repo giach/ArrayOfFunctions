@@ -2,7 +2,7 @@
 #define __FUNC_H
 
 typedef int (*Functions)(int);
-extern int arraySize
+extern int arraySize;
 
 //Prototipurile functiilor date exemplu
 int addTen(int i);
