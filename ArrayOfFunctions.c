@@ -5,7 +5,6 @@
 //Vectorul de functii
 Functions func[] = { &addTen, &subtractTen, &multiplyByTen, &divideByTen,                            
                      &addEight, &addFive, &subtractFive, &divideByTwo };
-int arraySize = sizeof(func) / sizeof(func[0]);
 
 void applyFunctionsOnAValue(int value, int number) {
 
