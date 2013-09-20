@@ -1,5 +1,7 @@
 #include "function.h"
 
+int arraySize = sizeof(func) / sizeof(func[0]);
+
 int addTen(int i) {
 	return i + 10;
 }
