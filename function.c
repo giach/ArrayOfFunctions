@@ -1,5 +1,7 @@
 #include "function.h"
 
+Functions func[] = { &addTen, &subtractTen, &multiplyByTen, &divideByTen, 
+                     &addEight, &addFive, &subtractFive, &divideByTwo };
 int arraySize = sizeof(func) / sizeof(func[0]);
 
 int addTen(int i) {
