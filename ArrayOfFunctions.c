@@ -3,13 +3,11 @@
 
 
 //Vectorul de functii
-Functions func[] = { &addTen, &subtractTen, &multiplyByTen, &divideByTen,                            
-                     &addEight, &addFive, &subtractFive, &divideByTwo };
+extern Functions func[];               
 
 void applyFunctionsOnAValue(int value, int number) {
 
 	int i;
-  
 	if(number < arraySize) {
 		printf("Rezultatele primelor %d functii.\n", number);
 	}
@@ -31,7 +29,8 @@ int main() {
 	
 	int value, i;
 	
-	printf("Numerul asupra caruia se aplica functiile:\n");
+	printf("Maximul de functii este: %d\n", arraySize);
+	printf("Numarul asupra caruia se aplica functiile:\n");
 	scanf("%d", &value);
 
 	//Aplica primele 3 functii
